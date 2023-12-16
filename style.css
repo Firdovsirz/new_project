@@ -322,3 +322,41 @@ button:nth-child(2) {
 .live-main-text>h1 {
     font-size: 50px;
 }
+@media (max-width: 1300px){
+    .header-area{
+        width: 40em;
+    }
+    .home-part{
+        width: 40em;
+    }
+    .about-img{
+        display: none;
+    }
+    .live-main{
+        display: flex;
+        flex-direction: column;
+        width: 40em;
+    }
+    .live-main > img{
+        width: 40em;
+        height: 30em;
+    }
+    .about-section{
+        width: 40em;
+    }
+    .about-container > div:first-child{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .upcoming-cards{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+    }
+    .upcoming-cards > div{
+        margin-top: 20px;
+    }
+}
